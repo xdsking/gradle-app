@@ -1,0 +1,4 @@
+rootProject.name = 'gradle-app'
+include 'g1'
+include 'g2'
+

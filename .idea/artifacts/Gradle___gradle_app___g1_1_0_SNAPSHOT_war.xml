@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : gradle-app : g1-1.0-SNAPSHOT.war">
+    <output-path>$PROJECT_DIR$/out/artifacts/g1</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="archive" name="g1-1.0-SNAPSHOT.war">
+      <element id="javaee-facet-resources" facet="g1_main/web/Web Gradle : g1-1.0-SNAPSHOT.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="g1_main" />
+          <element id="dir-copy" path="$PROJECT_DIR$/g1/build/resources/main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vividsolutions/jts/1.8/6ad868f7fe14ef6646d584072e33247eb95f9d13/jts-1.8.jar" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/g1/exploded/g1-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
